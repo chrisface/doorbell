@@ -18,3 +18,4 @@ test:
 production:
   <<: *default
   database: doorbell_production
+  password: <%= ENV['DOORBELL_DATABASE_PASSWORD'] %>
