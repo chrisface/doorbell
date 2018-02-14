@@ -52,3 +52,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Added at 2018-02-14 18:59:57 +0100 by u0157585:
+gem "guard", "~> 2.14"
+
+# Added at 2018-02-14 19:00:12 +0100 by u0157585:
+gem "guard-rails", "~> 0.8.1"
+
+# Added at 2018-02-14 19:01:05 +0100 by u0157585:
+gem "guard-rspec", "~> 4.7"
