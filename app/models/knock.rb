@@ -1,0 +1,2 @@
+class Knock < ApplicationRecord
+end
